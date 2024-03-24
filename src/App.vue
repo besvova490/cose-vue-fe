@@ -1,16 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-btn>
+    Button
+  </v-btn>
+  <v-chip append-icon="$vuetify">
+  Chip
+</v-chip>
+<v-tooltip text="Tooltip">
+  <template v-slot:activator="{ props }">
+    <v-btn v-bind="props">Tooltip</v-btn>
+  </template>
+</v-tooltip>
+<v-text-field label="Label"></v-text-field>
+<v-date-picker multiple="range" width="400"></v-date-picker>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
