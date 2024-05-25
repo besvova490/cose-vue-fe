@@ -11,12 +11,19 @@ import router from './router';
 
 // assets
 import 'vuetify/styles';
+import '@mdi/font/css/materialdesignicons.css'
 import './assets/styles/index.scss';
 
 const app = createApp(App);
 const vuetify = createVuetify({
   components,
   directives,
+  theme: {
+    defaultTheme: 'dark',
+  },
+  icons: {
+    defaultSet: 'mdi'
+  }
 });
 
 

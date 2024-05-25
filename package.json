@@ -8,14 +8,19 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vee-validate/zod": "^4.12.6",
+    "axios": "^1.7.2",
     "core-js": "^3.8.3",
+    "vee-validate": "^4.12.6",
     "vue": "^3.2.13",
     "vue-router": "^4.3.0",
-    "vuetify": "^3.5.10"
+    "vue3-google-map": "^0.20.0",
+    "vuetify": "^3.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@mdi/font": "^7.4.47",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",

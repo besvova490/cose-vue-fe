@@ -1,3 +1,7 @@
+@use 'vuetify' with (
+  $color-pack: false,
+);
+
 #app {
   display: flex;
   flex-direction: column;
